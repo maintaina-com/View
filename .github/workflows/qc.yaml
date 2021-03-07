@@ -1,9 +1,9 @@
 on:
-  - push:
+  push:
     branches:
       - master
       - FRAMEWORK_6_0
-  - workflow_dispatch:
+  workflow_dispatch:
     inputs:
       repository:
         description: 'Which repository to check'     
