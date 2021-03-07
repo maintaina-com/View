@@ -22,6 +22,6 @@ jobs:
     steps:
     - name: Run the qc component
       id: hello
-      uses: maintaina/actions-components-container@master
+      uses: maintaina/actions-components-container@v0.0.1
       with:
         repository: 'view'
